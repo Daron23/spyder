@@ -1,92 +1,105 @@
- body {
-     background-color: RGB(194, 64, 60);
-     padding: 0 2em;
- }
- /* ------------ HEADER SECTION -------------- */
- header {
-     color: white;
-     text-align: center;
- }
- header h1 {
-     color: white;
- }
- header h1 span {
-     display: block;
-     font-size: .4em;
- }
- header ul {
-     list-style: none;
-     padding-left: 0;
- }
- header ul li {
-     display: inline-block;
- }
- header ul li a {
-     color: white;
- }
- @media (min-width: 600px) {
-     header {
-         text-align: left;
-     }
-     header h1 {
-         display: inline-block;
-         position: absolute;
-     }
-     header ul {
-         text-align: right;
-         padding-top: 3.25em;
-     }
- }
- /* ------------ HEADER SECTION -------------- */
- /*
- h1 {
-     color: white;
-     font-size: 50px;
- }
- p {
-     color: white;
-     font-size: 25px;
- }
- h2 {
-     font-size: 150px;
-     color: white;
- }
- h3 {
-     font-size: 100px;
-     color: white;
- }
- h4 {
-     color: white;
- }
- .title {
-     margin-left: 80px;
- }
- .sub {
-     margin-top: -35px;
- }
- .nav {
-     margin-top: -60px;
-     margin-left: 500px;
- }
- .nav li {
-     display: inline-block;
-     color: white;
-     font-size: 22px;
-     margin: 10px;
-     text-decoration: none;
- }
- .high {
-     margin-left: 630px;
- }
- .values {
-     margin: -140px;
-     margin-left: 630px;
- }
- .mission {
-     margin-top: -80px
- }
- .underline {
-     text-decoration: underline;
-     color: white;
- }
-*/
+
+
+
+/* ------------ VERTICAL CENTERED STYLES -------------- */
+.vertical-section {
+    padding: 0 2em;
+}
+.centered-container {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+.red {
+    background-color: RGB(194, 64, 60);
+}
+.gray {
+    background-color: RGB(227, 227, 227);
+}
+/* ------------ VERTICAL CENTERED STYLES -------------- */
+
+
+
+/* ------------ HEADER SECTION -------------- */
+
+header {
+    color: white;
+    text-align: center;
+    overflow: auto;
+}
+header h1 {
+    color: white;
+}
+header h1 span {
+    display: block;
+    font-size: .4em;
+}
+header ul {
+    list-style: none;
+    padding-left: 0;
+}
+header ul li {
+    display: inline-block;
+    font-size: .65em;
+}
+header ul li a {
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+header .underline {
+    border-bottom: 3px solid white;
+}
+@media (min-width: 600px) {
+    header {
+        text-align: left;
+    }
+    header h1 {
+        display: inline-block;
+        position: absolute;
+    }
+    header ul {
+        text-align: right;
+        padding-top: 2.25em;
+    }
+}
+@media (min-width: 800px) {
+    header ul li a {
+        padding: 10px;
+    }
+    header ul li {
+        font-size: 1em;
+    }
+}
+/* ------------ HEADER SECTION -------------- */
+
+/* ------------ CONTAINER SECTION -------------- */
+
+@media (min-width: 800px) {
+    .container {
+        overflow: auto;
+    }
+    .container1 {
+        position: absolute;
+        border: 16px solid white;
+        width: 222px;
+        bottom: 27%;
+    }
+    .container2 {
+        max-width: 65%;
+        display: inline-block;
+        float: right;
+    }
+    .container2 h1 {
+        color: white;
+        font-size: 12em;
+    }
+    .container2 h2 {
+        color: white;
+        font-size: 9em;
+    }
+    .container2 p {
+        color: white;
+        margin: 0em;
+    }
+}
+/* ------------ CONTAINER SECTION -------------- */

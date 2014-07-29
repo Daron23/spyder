@@ -1,0 +1,112 @@
+*, *:before, *:after{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+html, body{ 
+  background-color: rgb(227, 227, 227);
+  margin: 0;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  text-align: center;
+  color: white;
+  font-size: 4em;
+}
+h2{
+  text-align: center;
+  color: rgb(192, 63, 59);
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+p {
+  color: rgb(192, 63, 59);
+  font-size: 1.2em;
+  line-height: 2em;
+  margin: 20px 10px;
+  text-align: center;
+}
+.top{
+  background-color: rgb(192, 63, 59);
+  height: 25px;
+}
+.box {
+  padding-top: 135px;
+  width: 1100px;
+  margin: 0 auto;
+}
+.cell{
+  display: inline-block;
+  width: 24%;
+  }
+.cell img{
+  margin: 0 auto;
+  display: block;
+  padding-top: 50px;
+}
+.cell2{
+  vertical-align: top;
+  display: inline-block;
+  width: 24%;
+}
+.cell2 img{
+  margin: 0 auto;
+  display: block;
+  padding-top: 50px;
+}
+.cell3{
+  vertical-align: top;  
+  display: inline-block;
+  width: 24%; 
+}
+.cell3 img{
+  margin: 0 auto;
+  display: block;
+  padding-top: 50px;
+}
+.cell4{
+  vertical-align: top;  
+  display: inline-block;
+  width: 24%;
+}
+.cell4 img{
+  margin: 0 auto;
+  display: block;
+  padding-top: 50px;
+}
+.circle1{
+	width:200px;
+  height:200px;
+  border-radius:50%;
+  background: white;
+  margin: 0 auto;
+}
+.circle2{
+	width:200px;
+  height:200px;
+  border-radius:50%;
+  background: white;
+  margin: 0 auto;
+}
+.circle3{
+	width:200px;
+  height:200px;
+  border-radius:50%;
+  background: white;
+  margin: 0 auto;  
+}
+.circle4{
+	width:200px;
+  height:200px;
+  border-radius:50%;
+  background: white;
+  margin: 0 auto;  
+}
+.underline {
+  background-color: white;
+  height: 5px;
+  width: 80px;
+  margin: 0 auto;
+}
